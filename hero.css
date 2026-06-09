@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 5%;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+}
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav button{
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 3px aqua;
+    border: none;
+}
+
+.About{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.one{
+    margin-top: 100px;
+}
+
+.one button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.big{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.service{
+    display: flex;
+    font-size: 20px;
+    margin: 11vh;
+    padding-top: 20px;
+}
+
+.service b{
+    background-color: green;
+    color: white;
+}
+
+.five{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.png{
+    display: flex;
+    margin-left: 50px;
+    border: 1px solid black;
+    width: 550px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.fight{
+    margin-left: 102px;
+}
+
+
+.Navigating{
+    margin-left: 75px;
+}
+
+.name h1{
+    margin-left: 50px;
+}
+.name img{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.png:nth-last-child(1){
+    background-color: rgb(1, 1, 31);
+    color: yellowgreen;
+}
+
+.png:nth-last-child(2){
+    background-color: yellowgreen;
+    color: white;
+}
+
+
+.png:nth-last-child(3){
+    background-color: whitesmoke;
+}
+
+.png:nth-last-child(4){
+    background-color:  rgb(1, 1, 31);
+    color:  white;
+}
+
+
+.png:nth-last-child(5){
+    background-color: yellowgreen;
+}
+
+.png:nth-last-child(6){
+    background-color:  whitesmoke;
+}
+
+
+.name button{
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.case{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    margin-top: 200px;
+    background: #f3f3f3;
+    
+}
+
+.can button{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.can{
+    font-size: 23px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.for{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.for b{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.local{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    margin: 50px 5%;
+    border-radius: 40px;
+    color: white;
+    padding: 30px;
+}
+
+.bird{
+    width: 320px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.kos{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    gap: 20px;
+    color: yellowgreen;
+}
+.kos button{
+    background-color: transparent;
+    color: yellowgreen;
+    border: none;
+}
+
+.the{
+    margin-left: 100px;
+    box-shadow: 0px 3px 5px 4px black;
+    width: 1100px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+.rate{
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.to{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.to button{
+    padding: 0px 16px;
+    border-radius: 50px;
+    font-size: 40px;
+}
+
+.pro{
+    display: flex;
+    margin-left: 100px; 
+    box-shadow: 2px 2px 3px 2px grey;
+    margin-top: 50px ;
+    width: 1100px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.pro button{
+    padding: 0px 12px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+
+.three{
+    display: flex;
+    margin-left: 100px;
+     box-shadow: 2px 2px 3px 2px grey;
+    margin-top: 50px ;
+    width: 1100px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.three button{
+    padding: 0px 12px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+
+.four{
+    display: flex;
+    margin-left: 100px;
+    box-shadow: 2px 2px 3px 2px grey;
+    margin-top: 50px ;
+    width: 1100px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.four button{
+    padding: 0px 12px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+
+.left {
+    display: flex;
+    margin-left: 100px;
+    box-shadow: 2px 2px 3px 2px grey;
+    margin-top: 50px ;
+    width: 1100px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.left button{
+    padding: 0px 12px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.six{
+    display: flex;
+    margin-left: 100px;
+    box-shadow: 2px 2px 3px 2px grey;
+    margin-top: 50px ;
+    width: 1100px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.six button{
+    padding: 0px 12px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+
+.team{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 25px;
+    display: flex;
+    gap: 50px;
+}
+
+.team b{
+    background-color: green;
+    color: black;
+}
+
+.jon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.ceo{
+    display: flex;
+}
+
+.ceo h1{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.smith{
+    box-shadow: 0px 2px 4px 3px grey;
+    padding:15px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.how{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    box-shadow: 0px 2px 4px 3px gray;
+    padding: 20px;
+    font-size: 20px;
+    width: 1300px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.lolo{
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.lolo b{
+    background-color: green;
+    color: black;
+}
+
+.past{
+    margin-right: 50px;
+}
+
+.look{
+    margin-left: 30px;
+}
+
+.us{
+    display: flex;
+    margin-top: 100px;
+}
+
+.say{
+    display: flex;
+    box-shadow: 0px 2px 3px 2px rgb(124, 120, 120);
+    background-color:  whitesmoke;
+    width: 1300px;
+    margin: 30px ;
+    border-radius: 20px;
+}
+
+.kichkina{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.nm input{
+   font-size: 30px;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.em input{
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.mes input{
+    font-size: 30px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.but button{
+    border-radius: 10px;
+    background-color:  rgb(0, 0, 0) ;
+    color: white;
+}
+
+.but button{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 365px;
+    height: 50px;
+}
+
+.kichkina1 img{
+    margin-left: 450px;
+}
+
+.info{
+    display: flex;
+}
+.mail {
+    margin-left: 200px;
+    gap: 10px;
+    display: flex;
+    margin-top: 40px;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    background-color: gray;
+}
+
+.mail input{
+    font-size: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.mail button{
+    font-size: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 320px){
+    nav a{
+        display: none;
+    }
+}
